@@ -78,7 +78,7 @@ li a{
     border: outset rgb(255, 255, 255);
     border-width: 5px;
     position: absolute;
-    left: 860px;
+    left: 990px;
     top: 140px;
     right: 160px;
     z-index: -1;
@@ -87,19 +87,42 @@ li a{
     font-size: 20px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 15px;
+    transition: 0.7s;
+        }
+
+        .text1:hover{
+        transform: scale(1.2);
+        box-shadow:2px 2px 2px #000;
+        z-index: 2;
+
+        }
 
 
-}
+
+
 header {
 font-size: 69px;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 background-color: rgb(255, 255, 255);
 border-radius: 15px;
-
-
 }
 
-
+.word{
+    background-color: rgb(250, 250, 250);
+    border: outset rgb(255, 255, 255);
+    border-width: 5px;
+    position: absolute;
+    left: 90px;
+    top: 400px;
+    z-index: -1;
+    color: rgb(0, 0, 0);
+    transform: translate(-77 -77);
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, sans-serif;
+    border-radius: 10px;
+    transition: 0.7s;
+    font-weight:lighter
+}
 body {
 background-color: rgb(246, 246, 246);
 }
@@ -118,13 +141,13 @@ img {
 
 
 .text {
-    background-color: rgb(246, 246, 246);
+    background-color: rgb(249, 249, 249);
     border: outset rgb(255, 255, 255);
     border-width: 5px;
     position: absolute;
     left: 5%;
-    top: 25%;
-    right: 73%;
+    top: 18%;
+    right: 90%;
     color: black;
     transform: translate(-77 -77);
     font-size: 20px;
@@ -132,6 +155,37 @@ img {
     border-radius: 15px;
     height: 190px;
     width: 350px;
+    transition: 0.7s;
+}
+
+.text:hover{  
+
+transform: scale(1.2);
+box-shadow:2px 2px 2px #000;
+z-index: 2;
+
+}
+.text2 {
+    background-color: rgb(249, 249, 249);
+    border: outset rgb(255, 255, 255);
+    border-width: 5px;
+    position: absolute;
+    left: 69.1%;
+    top: 65%;
+    right: 3%;
+    color: black;
+    transform: translate(-77 -77);
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 15px;
+    height: 190px;
+    width: 350px;
+    transition: 0.7s;
+}
+.text2:hover{
+    transform: scale(1.1);
+    box-shadow:2px 2px 2px #000;
+    z-index: 2;
 }
 .Kujtimet {
 
@@ -179,269 +233,132 @@ li {
     top: 12px;
 
 }
-
 .li3 {
 
-    background-color: gray;
-    border: outset rgb(33, 33, 33);
+    background-color: rgb(255, 255, 255);
+    border: outset rgb(243, 242, 242);
     border-width: 5px;
     position: absolute;
     color: black;
-    font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 10px;
-    top: 650px;
+    top: 470px;
+    left: 185px;
 
 }
 .li4 {
 
-    background-color: gray;
-    border: outset rgb(33, 33, 33);
+    background-color: rgb(255, 255, 255);
+    border: outset rgb(243, 242, 242);
     border-width: 5px;
     position: absolute;
     color: black;
     font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 10px;
-    top: 650px;
+    top: 470px;
+    left: 310px;
 
 }
 .li5 {
 
-    background-color: gray;
-    border: outset rgb(33, 33, 33);
+    background-color: rgb(255, 255, 255);
+    border: outset rgb(243, 242, 242);
     border-width: 5px;
     position: absolute;
     color: black;
     font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 10px;
-    top: 650px;
+    top: 470px;
+    left: 435px;
 
 }
 .li6 {
 
-    background-color: gray;
-    border: outset rgb(33, 33, 33);
+    background-color: rgb(255, 255, 255);
+    border: outset rgb(243, 242, 242);
     border-width: 5px;
     position: absolute;
     color: black;
     font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 10px;
-    top: 650px;
+    top: 470px;
+    left: 565px;
 
 }
 .li7 {
 
-    background-color: gray;
-    border: outset rgb(33, 33, 33);
+    background-color: rgb(255, 255, 255);
+    border: outset rgb(243, 242, 242);
     border-width: 5px;
     position: absolute;
     color: black;
     font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 10px;
-    top: 650px;
+    top: 470px;
+    left: 690px;
 
 }
 .li8 {
 
-    background-color: gray;
-    border: outset rgb(33, 33, 33);
+    background-color: rgb(255, 255, 255);
+    border: outset rgb(243, 242, 242);
     border-width: 5px;
     position: absolute;
     color: black;
     font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 10px;
-    top: 650px;
+    top: 555px;
+    left: 185px;
 
 }
 .li9 {
 
-    background-color: gray;
-    border: outset rgb(33, 33, 33);
+    background-color: rgb(255, 255, 255);
+    border: outset rgb(243, 242, 242);
     border-width: 5px;
     position: absolute;
     color: black;
     font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 10px;
-    top: 650px;
+    top: 555px;
+    left: 310px;
 
 }
 .li10 {
 
-    background-color: gray;
-    border: outset rgb(33, 33, 33);
+    background-color: rgb(255, 255, 255);
+    border: outset rgb(243, 242, 242);
     border-width: 5px;
     position: absolute;
     color: black;
     font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 10px;
-    top: 650px;
+    top: 555px;
+    left: 435px;
 
 }
 .li11 {
 
-    background-color: gray;
-    border: outset rgb(33, 33, 33);
+    background-color: rgb(255, 255, 255);
+    border: outset rgb(243, 242, 242);
     border-width: 5px;
     position: absolute;
     color: black;
     font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 10px;
-    top: 650px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 555px;
+    top: 555px;
+    left: 565px;
 
 }
-.li12 {
-
-    background-color: gray;
-    border: outset rgb(33, 33, 33);
-    border-width: 5px;
-    position: absolute;
-    color: black;
-    font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 10px;
-    top: 650px;
-
-}
-.li13 {
-
-    background-color: gray;
-    border: outset rgb(33, 33, 33);
-    border-width: 5px;
-    position: absolute;
-    color: black;
-    font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 10px;
-    top: 650px;
-
-}
-.li14 {
-
-    background-color: gray;
-    border: outset rgb(33, 33, 33);
-    border-width: 5px;
-    position: absolute;
-    color: black;
-    font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 10px;
-    top: 650px;
-
-}
-.li15 {
-
-    background-color: gray;
-    border: outset rgb(33, 33, 33);
-    border-width: 5px;
-    position: absolute;
-    color: black;
-    font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 10px;
-    top: 650px;
-
-}
-.li16 {
-
-    background-color: gray;
-    border: outset rgb(33, 33, 33);
-    border-width: 5px;
-    position: absolute;
-    color: black;
-    font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 10px;
-    top: 650px;
-
-}
-.li17 {
-
-    background-color: gray;
-    border: outset rgb(33, 33, 33);
-    border-width: 5px;
-    position: absolute;
-    color: black;
-    font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 10px;
-    top: 650px;
-
-}
-.li18 {
-
-    background-color: gray;
-    border: outset rgb(33, 33, 33);
-    border-width: 5px;
-    position: absolute;
-    color: black;
-    font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 10px;
-    top: 650px;
-
-}
-.li19 {
-
-    background-color: gray;
-    border: outset rgb(33, 33, 33);
-    border-width: 5px;
-    position: absolute;
-    color: black;
-    font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 10px;
-    top: 650px;
-
-}
-.li20 {
-
-    background-color: gray;
-    border: outset rgb(33, 33, 33);
-    border-width: 5px;
-    position: absolute;
-    color: black;
-    font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 10px;
-    top: 650px;
-
-}
-.li21 {
-
-    background-color: gray;
-    border: outset rgb(33, 33, 33);
-    border-width: 5px;
-    position: absolute;
-    color: black;
-    font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 10px;
-    top: 650px;
-
-}
-.li22{
-
-    background-color: gray;
-    border: outset rgb(33, 33, 33);
-    border-width: 5px;
-    position: absolute;
-    color: black;
-    font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 10px;
-    top: 650px;
-
-}
-
-
 p {
     background-color: gray;
     border: outset rgb(33, 33, 33);
@@ -455,9 +372,181 @@ p {
 
 
 }
+.li12 {
 
+    background-color: rgb(255, 255, 255);
+    border: outset rgb(243, 242, 242);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10px;
+    top: 555px;
+    left: 690px;
 
+}
+.li13 {
 
+    background-color: rgb(255, 255, 255);
+    border: outset rgb(243, 242, 242);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10px;
+    top: 12px;
+
+}
+.li14 {
+
+    background-color: rgb(255, 255, 255);
+    border: outset rgb(243, 242, 242);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10px;
+    top: 640px;
+    left: 185px;
+
+}
+.li15 {
+
+    background-color: rgb(255, 255, 255);
+    border: outset rgb(243, 242, 242);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10px;
+    top: 640px;
+    left: 310px;
+
+}
+.li16 {
+
+    background-color: rgb(255, 255, 255);
+    border: outset rgb(243, 242, 242);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10px;
+    top: 640px;
+    left: 435px;
+
+}
+.li17 {
+
+    background-color: rgb(255, 255, 255);
+    border: outset rgb(243, 242, 242);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10px;
+    top: 640px;
+    left: 565px;
+
+}
+.li18 {
+
+    background-color: rgb(255, 255, 255);
+    border: outset rgb(243, 242, 242);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 640px;
+    top: 640px;
+    left: 690px;
+
+}
+.li19 {
+
+    background-color: rgb(255, 255, 255);
+    border: outset rgb(243, 242, 242);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10px;
+    top: 12px;
+
+}
+.li20 {
+
+    background-color: rgb(255, 255, 255);
+    border: outset rgb(243, 242, 242);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10px;
+    top: 12px;
+
+}
+.li21 {
+
+    background-color: rgb(255, 255, 255);
+    border: outset rgb(243, 242, 242);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10px;
+    top: 12px;
+
+}
+.li22 {
+
+    background-color: rgb(255, 255, 255);
+    border: outset rgb(243, 242, 242);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10px;
+    top: 12px;
+
+}
+.li23 {
+
+    background-color: rgb(255, 255, 255);
+    border: outset rgb(243, 242, 242);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10px;
+    top: 12px;
+
+}
+.li24 {
+
+    background-color: rgb(255, 255, 255);
+    border: outset rgb(243, 242, 242);
+    border-width: 5px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10px;
+    top: 12px;
+
+}
 a {
 
 color: black;
